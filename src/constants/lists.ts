@@ -1,7 +1,9 @@
 // the Uniswap Default token list lives here
 // export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json'
 export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/tokencontent/tokenlist/main/token.json'
+export const LOCAL_TOKEN_LIST = '../localtoken.json'
 export const DEFAULT_LIST_OF_LISTS: string[] = [
+  LOCAL_TOKEN_LIST,
   DEFAULT_TOKEN_LIST_URL
 ]
 // export const DEFAULT_TOKEN_LIST_URL = 'tokens.uniswap.eth'
